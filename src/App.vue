@@ -43,6 +43,7 @@
             <th class="p-3 text-sm font-semibold text-gray-600">Nombre</th>
             <th class="p-3 text-sm font-semibold text-gray-600">Correo</th>
             <th class="p-3 text-sm font-semibold text-gray-600">Teléfono</th>
+            <th class="p-3 text-sm font-semibold text-gray-600">Estatus</th>
           </tr>
         </thead>
         <tbody class="divide-y divide-gray-200 bg-white">
@@ -50,6 +51,14 @@
             <td class="p-3 text-sm text-gray-700">{{ c.nombre }}</td>
             <td class="p-3 text-sm text-gray-700">{{ c.email }}</td>
             <td class="p-3 text-sm text-gray-700">{{ c.telefono }}</td>
+            <td class="p-3 text-sm text-gray-700">
+              <span 
+                :class="c.status ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'" 
+                class="px-2 py-1 rounded-full text-xs font-semibold"
+              >
+                {{ c.status ? 'Activo' : 'Inactivo' }}
+              </span>
+            </td>
           </tr>
         </tbody>
       </table>
