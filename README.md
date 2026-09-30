@@ -39,3 +39,6 @@ npm run dev
 
 ## IA Utilizada
 - Herramientas de IA: Generación de bloques de código, apoyo para estructura, y para entender funcionamiento de Vue3.
+
+## Tiempo efectivo invertido
+- Aproximadamente el tiempo efectivo invertido fue de 4 a 5 horas, sin incluir el tiempo de corrección de errores y el tiempo de preparación de envío.
