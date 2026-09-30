@@ -37,6 +37,5 @@ npm run dev
 - Filtro por estatus de contacto.
 - Manejo de alertas visuales para correos duplicados o servidor fuera de línea.
 
-## Tiempo e IA Utilizada
-- Tiempo efectivo invertido: Aproximadamente 4 a 5 horas.
-- Herramientas de IA: Generación de bloques de código, apoyo para estructura.
+## IA Utilizada
+- Herramientas de IA: Generación de bloques de código, apoyo para estructura, y para entender funcionamiento de Vue3.
