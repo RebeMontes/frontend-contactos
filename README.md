@@ -1,42 +1,42 @@
-# frontend-contactos
+# Frontend - Sistema de Gestión de Contactos
 
-This template should help get you started developing with Vue 3 in Vite.
+Interfaz web desarrollada con Vue 3, Vite y Tailwind CSS.
 
-## Recommended IDE Setup
+## Versiones
+- Node.js: v25.6.0
+- Vue.js: v3.5.42
+- Vite: v8.2.2
+- Tailwind CSS: v4.3.3
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Rama para Ejecución
+Ejecutar la rama feature/interfaz.
 
-## Recommended Browser Setup
+## Comandos Exactos de Instalación y Arranque
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+1. Clonar el repositorio y cambiar a la rama:
+git clone https://github.com/RebeMontes/frontend-contactos.git
+cd frontend-contactos
+git checkout feature/interfaz
 
-## Type Support for `.vue` Imports in TS
+2. Copiar archivo de entorno:
+cp .env.example .env
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+3. Instalar dependencias:
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+4. Iniciar servidor de desarrollo:
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
+## Funciones Completadas (Avance de 4 Horas)
+- Formulario para la captura de datos (Nombre, Correo, Teléfono).
+- Conexión y envío de peticiones HTTP a la API REST del backend.
+- Despliegue de datos en tabla con orden descendente por fecha de registro.
 
-```sh
-npm run build
-```
+## Funcionalidades Pendientes
+- Módulo para edición y actualización de contactos.
+- Filtro por estatus de contacto.
+- Manejo de alertas visuales para correos duplicados o servidor fuera de línea.
+
+## Tiempo e IA Utilizada
+- Tiempo efectivo invertido: Aproximadamente 4 a 5 horas.
+- Herramientas de IA: Generación de bloques de código, apoyo para estructura.
